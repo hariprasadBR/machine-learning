@@ -16,3 +16,4 @@ The training loop consists in the following steps:
 - Four, we compute the loss.
 - And last, we adjuts the model parameters.
 We need to repeat this process several times, according to the learning rate. After the training of the model is done we need to apply an evaluation phase.
+a
