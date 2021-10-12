@@ -7,7 +7,7 @@ regression model.
 The Advertising data set we are going to use is from “An Introduction to Statistical Learning”, textbook by Gareth James, Robert Tibshirani, and Trevor Hastie, which consists of the sales of a product in 200 different markets, along with advertising budgets for the product in each of those markets for three different media: TV, radio, and newspaper.
 
 ## Our Objetive
-- By training an inference model, a series of mathematical expressions we want to apply to our data that depends on a series of parameters. The values of parameters change through training in order for the model to learn and adjust its output.
+    By training an inference model, a series of mathematical expressions we want to apply to our data that depends on a series of parameters. The values of parameters change through training in order for the model to learn and adjust its output.
 
 The training loop consists in the following steps:
 - First, we need to initialize the model parameters to some random values.
