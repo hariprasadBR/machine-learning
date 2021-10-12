@@ -65,6 +65,8 @@ Specifically, this linear regression is used to determine how well a line fitsâ€
 ![r-squared](https://user-images.githubusercontent.com/84274712/136902571-8144a6db-61f0-4ff0-8622-e4ef319cac9f.jpg)
 
 R-Squared R2
+![r-square-formula-1](https://user-images.githubusercontent.com/84274712/136903215-591cdf33-9c33-4485-a11f-1d1bbf463558.jpg)
+
 
 - RSS = Residual sum of squares: It is the measure of the difference between the expected and the actual output. A small RSS indicates a tight fit of the model to the data. It is also defined as follows: 
 
