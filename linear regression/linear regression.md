@@ -107,20 +107,14 @@ Overfitting is the opposite case of underfitting, i.e., when the model predicts 
 1. Simple Linear Regression
 2. Multiple Linear Regression
 
-# steps involve in machine learning.
-1) selecting the data
-2) importing the necessary libraries.
-3) analysisg the the categorical and numerical varibales.
-4) plotting charts for better visualization and corelation.
-5) converting the categorical varible in to binary which have 2 values.
-6) categorical varible which have more then 2 values creating dummy variables.
-7) scaling the values
-8) selecting the model building technique forward selection backward select or recuricive selection.
-9) 3. Error Terms or Residuals (ϵ):
+
+#### Error Terms or Residuals (ϵ):
 It is the difference between the actual and the predicted data point in the x-y coordinate graph
 Objective of Linear Regression:
 The goal of linear regression is to perform predictive analytics and it is done by making the machine learn the science of generating a trained (best fitted) line that will very well generalize how new and unknown data (test set or new dataset) will be evaluated, and how the fitted line will be able to accurately estimate new or unknown datasets.
-Steps to be followed in Linear Regression Algorithm:
+
+
+# Steps to be followed in Linear Regression Algorithm:
 1. Reading and understanding the data
 a. Importing required libraries like pandas & numpy for data analysis and manipulation and seaborn & matplotlib for data visualization
 b. Cleaning and manipulating data to make it up to the standards that exploratory data analysis can be performed by treating null values if any, updating to necessary formats, changing data types if needed, removing unwanted rows or columns etc. The raw data in whatever condition you get must be squeaky cleaned of any muck before assessing it for visualization.
@@ -138,9 +132,14 @@ b. Backward Selection: We add all the variables at once and then eliminate varia
 c. RFE or Recursive Feature Elimination is more like an automated version of feature selection technique where we select that we need “m” variables out of “n” variables and then machine provides a list of features with importance level given in terms of rankings. A rank 1 means that feature is important for the model, while a rank 4 implies that we are better off, if we don’t consider the feature.
 6. Residual analysis of the train data:
 a. It tells us how much the errors (y_actual — y_pred) are distributed across the model. A good residual analysis will signify that the mean is centred around 0.
+![1_TC5gcBCtVg5w-OqSA85A7g](https://user-images.githubusercontent.com/84274712/136905211-9ecccaa8-577e-426a-92f3-3258db451008.png)
 
 The residual errors are centered around 0
 7. Making predictions using the final model and evaluation:
 a. We will predict the test dataset by transforming it onto the trained dataset
 b. Divide the test sets into X_test and y_test and calculate r2_score of test set. The train and test set should have similar r2_score. A difference of 2–3% between r2_score of train and test score is acceptable as per the standards.
-In case of any data analytics related query… Feel free to connect with me.. Adios.😊
+
+Feature Scaling is a technique to standardize the independent features present in the data in a fixed range. It is performed during the data pre-processing to handle highly varying magnitudes or values or units. If feature scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless of the unit of the values.
+![Capture](https://user-images.githubusercontent.com/84274712/136905556-a10f0417-14a0-424f-a993-e8d7b2cea027.PNG)
+
+
