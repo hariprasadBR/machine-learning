@@ -32,7 +32,7 @@ In this project, I build a Multiple Linear Regression model to estimate the rela
 
 ===============================================================================
 
-# Supervised Learning : Classification Projects
+## Supervised Learning : Classification Projects
 - Logistic Regression Project: 
 In this project, I train a binary Logistic Regression classifier to predict whether or not it will rain tomorrow in Australia. I have used Rain in Australia dataset from the Kaggle website. I have demonstrated feature engineering techniques alongwith Recursive Feature Elimination with Cross-validation, k-fold Cross Validation and GridSearch CV in this project.
 
