@@ -6,7 +6,7 @@ All the projects are done on Jupyter Notebooks (Notebook Server 5.6.0). The serv
 ===============================================================================
 
 Libraries required
-The following libraries are required to successfully implement the projects.
+<B>The following libraries are required to successfully implement the projects.</B>
 
 Python 3.6+
 NumPy (for linear algebra)
