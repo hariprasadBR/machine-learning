@@ -145,23 +145,36 @@ Feature Scaling is a technique to standardize the independent features present i
 Here's a brief summary of what you learnt in this session:
 
 --> Machine learning models can be classified into the following two categories on the basis of the learning algorithm:
+
   1) Supervised learning method: Past data with labels is available to build the model.
+  
     a) Regression: The output variable is continuous in nature.
     b) Classification: The output variable is categorical in nature.
+    
   2) Unsupervised learning method: Past data with labels is not available.
+  
     a) Clustering: There is no predefined notion of labels.
---> Past dataset is divided into two parts in the supervised learning method: 
+    
+--> Past dataset is divided into two parts in the supervised learning method:
+
   1) Training data is used for the model to learn during modelling.
   2) Testing data is used by the trained model for prediction and model evaluation.
+  
 --> Linear regression models can be classified into two types depending upon the number of independent variables: 
+
   a) Simple linear regression: This is used when the number of independent variables is 1.
   b) Multiple linear regression: This is used when the number of independent variables is more than 1.
+  
 --> The equation of the best fit regression line Y = β₀ + β₁X can be found by minimising the cost function (RSS in this case, using the ordinary least squares method), which is done using the following two methods:
+
   a) Differentiation
   b) Gradient descent 
+  
 --> The strength of a linear regression model is mainly explained by R², where R² = 1 - (RSS/TSS).
+
   a) RSS: Residual sum of squares
   b) TSS: Total sum of squares
+  
 --> RSE helps in measuring the lack of fit of a model on a given data. The closeness of the estimated regression coefficients to the true ones can be estimated using RSE. It is related to RSS by the formula: 
 R
 S
