@@ -1,3 +1,12 @@
+In general, logistic regression by definition tries to predict what state a particular individual or system will be in the future. You learnt about the two types of logistic regression:
+
+Binary logit
+
+Multinomial logit
+
+ 
+
+Binary logit involves two levels of the dependent variable. For example, the telecom churn example you learnt in earlier sessions is a binary logistic regression problem, as it classifies customers into two levels, churns and non-churns. Multinomial logit, however, involves more than 2 levels of dependent variables, such as whether a customer will purchase product A, product B or not purchase anything.
 
 build a multivariate logistic regression model in Python. The equation for multivariate logistic regression is basically just an extension of the univariate equation:
 ![eq](https://user-images.githubusercontent.com/84274712/137467507-04e25cec-1cee-4f99-8fea-6aed42f4fa4b.PNG)
