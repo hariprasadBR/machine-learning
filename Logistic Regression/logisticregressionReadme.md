@@ -30,38 +30,26 @@ After all of this was done, a logistic regression model was built in Python usin
 Apart from this, t confusion matrix and accuracy and saw how accuracy was calculated for a logistic regression model.
 
 So to summarise, the steps that you performed throughout the model building and model evaluation were:
-    <font color='blue'>
-
+    
 1) Data cleaning and preparation
-
-    a) Combining three dataframes
-    
+    a) Combining three dataframe    
     b) Handling categorical variables
-    
         A) Mapping categorical variables to integers
-        B) Dummy variable creation
-        
-    c) Handling missing values
-    
+        B) Dummy variable creation       
+    c) Handling missing values    
 2) Test-train split and scaling
-
 3) Model Building
-
     a) Feature elimination based on correlations
     b) Feature selection using RFE (Coarse Tuning)
-    c) Manual feature elimination (using p-values and VIFs)
-    
+    c) Manual feature elimination (using p-values and VIFs)    
 4) Model Evaluation
-
     1) Accuracy
     2) Sensitivity and Specificity
     3) Optimal cut-off using ROC curve
-    4) Precision and Recall
-    
+    4) Precision and Recall   
 5) Predictions on the test set
     
-    </font>
-
+    
 So first, classes were assigned to all the customers in the test data set. For this, a probability cutoff of 0.5 was used. The model thus made, was very accurate (Accuracy = ~80%), but it had a very low sensitivity (~53%). Thus, a different cutoff was tried out, i.e. 0.3, which resulted in a model with slightly lower accuracy (~77%), but a much better sensitivity (~78%). Hence, you learnt that you should not just blindly use 0.5 as the cutoff for probability every time you make a model. Business understanding must be applied. Here, that means playing around with the cutoff, until you get the most useful model.
 
  
